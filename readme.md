@@ -19,7 +19,7 @@ Ao invés de pesquisar receitas e comprar ingredientes, o usuário fornece os in
 
 ## 🚀 Como Executar Localmente
 
-Siga os passos abaixo para configurar e rodar o projeto em sua máquina.
+Siga os passos abaixo para configurar e rodar o projeto em sua máquina..
 
 ### 1. Clonar o Repositório
 
@@ -77,3 +77,4 @@ O código em `app.py` é estruturado em funções para clareza e manutenção, s
   * `construir_prompt()`: Monta a string de instrução detalhada (*prompt engineering*) enviada à API, incorporando as variáveis do usuário.
   * `gerar_receita()`: Gerencia a autenticação através do `.env` e faz a requisição real para o modelo `gemini-2.5-flash`.
   * `main()`: Orquestra o fluxo principal do programa.
+
