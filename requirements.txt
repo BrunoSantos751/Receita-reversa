@@ -1,0 +1,7 @@
+# Bibliotecas principais para o projeto Receita Reversa
+
+# Cliente oficial para a API do Google Gemini
+google-genai
+
+# Gerenciamento de variáveis de ambiente (.env)
+python-dotenv

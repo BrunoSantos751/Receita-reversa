@@ -103,8 +103,6 @@ def main():
     
     if ingredientes:
         prompt = construir_prompt(ingredientes, tempo_maximo, tipo_prato)
-        # Opcional: Descomente a linha abaixo para ver o prompt exato enviado à API
-        # print("\n--- PROMPT ENVIADO ---\n", prompt, "\n----------------------")
         gerar_receita(prompt)
 
 if __name__ == "__main__":
